@@ -2,6 +2,8 @@
 
 Task 1: Draggable div 
 Actual files deployed in github pages in separate repositories. 
+https://florence-100.github.io/single-draggable-div/ (single draggable div)
+https://florence-100.github.io/multiple-draggable-div/ (multiple draggable div)
 Codes are also uploaded here. 
 
 Task 2: To-do-list app 
