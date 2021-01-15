@@ -8,3 +8,5 @@ Codes are also uploaded here.
 
 Task 2: To-do-list app 
 Files are deployed on xcode iOS simulator and written on Visual Studio Code (most code in TodosList.js)
+References 
+https://www.youtube.com/watch?v=pt0suFWUG0o
