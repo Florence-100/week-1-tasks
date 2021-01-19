@@ -9,8 +9,8 @@
     var xOffset = 0;
     var yOffset = 0;
 
-    container.addEventListener("mousedown", dragStart, false);
-    container.addEventListener("mouseup", dragEnd, false);
+    document.addEventListener("mousedown", dragStart, false);
+    document.addEventListener("mouseup", dragEnd, false);
     container.addEventListener("mousemove", drag, false);
 
     function dragStart(e) {
@@ -25,7 +25,6 @@
     function dragEnd(e) {
       initialX = currentX;
       initialY = currentY;
-
       active = false;
     }
 
@@ -39,11 +38,12 @@
 
         xOffset = currentX;
         yOffset = currentY;
-
         setTranslate(currentX, currentY, dragItem);
       }
     }
 
     function setTranslate(xPos, yPos, el) {
-      el.style.transform = "translate3d(" + xPos + "px, " + yPos + "px, 0)";
+      el.style.position = "absolute";
+      el.style.left = xPos + "px";
+      el.style.top = yPos + "px";
     }
