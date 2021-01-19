@@ -11,7 +11,7 @@ Files are deployed on xcode iOS simulator and written on Visual Studio Code (mos
 References 
 https://www.youtube.com/watch?v=pt0suFWUG0o
 
-#week 2 add ons 
+# week 2 add ons 
 
 19 Jan on fix-bug branch:
 - Fix draggable div bug and change to position absolute 
